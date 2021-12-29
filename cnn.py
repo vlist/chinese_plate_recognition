@@ -1,8 +1,8 @@
 # -*- coding:utf-8 -*-
 # author: DuanshengLiu
 import tensorflow as tf
-from tf import keras as K
-from tf.keras import layers, losses, models
+from tensorflow import keras as K
+from tensorflow.keras import layers, losses, models
 import numpy as np
 import cv2
 import os
