@@ -1,0 +1,6 @@
+__pycache__/
+models/
+*.tar.gz
+plate_dataset/
+.DS_Store
+logdir/
