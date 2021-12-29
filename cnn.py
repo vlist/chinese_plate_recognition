@@ -96,6 +96,7 @@ def cnn_train(epochs_num):
         K.callbacks.ModelCheckpoint(ckpt_path,
                                     save_best_only=True,
                                     save_weights_only=True,
+                                    save_freq=5,
                                     verbose=1),
         K.callbacks.CSVLogger(csv_log, append=True)
     ]
