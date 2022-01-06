@@ -1,5 +1,3 @@
-# -*- coding:utf-8 -*-
-# author: DuanshengLiu
 import tensorflow as tf
 from tensorflow import keras as K
 from tensorflow.keras import layers, losses, models
