@@ -125,6 +125,6 @@ def cnn_predict(cnn, Lic_img):
             chars = ''
             for arg in np.argmax(lic_pred, axis=1):  # 取每行中概率值最大的arg,将其转为字符
                 chars += characters[arg]
-            chars = chars[0:2] + '·' + chars[2:]
+            chars = chars[0:2] + chars[2:]
             Lic_pred.append((lic, chars))  # 将车牌和识别结果一并存入Lic_pred
     return Lic_pred
