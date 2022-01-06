@@ -2,3 +2,5 @@ __pycache__/
 *.tar.gz
 plate_dataset/
 .DS_Store
+.ipynb_checkpoints
+*.csv
